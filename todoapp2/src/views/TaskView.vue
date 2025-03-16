@@ -19,8 +19,9 @@
                 :key="task.id"
                 class="task-item"
 
+                
                 <div class="task-text">
-                {{task.title}}
+                    {{task.title}}
                 </div>
 
                 <button class="complete-button" @click="completeTask(task.id)">Выполнена</button>
